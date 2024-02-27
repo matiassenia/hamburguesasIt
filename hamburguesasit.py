@@ -101,6 +101,8 @@ def guardarVenta(data):
     print("Datos guardados correctamente.")
 
 
+
+
 #Funcion para guardar los datos del encargado 
 def guardarEncargado(data):
     datosIn = (data["Nombre"], data["Ingreso"], "Ingreso", 0)
