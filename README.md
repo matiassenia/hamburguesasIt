@@ -36,7 +36,7 @@ Este es un sistema de pedidos desarrollado en Python con interfaz gráfica utili
 1. **Clona el repositorio:**
 ```bash
    git clone https://github.com/matiassenia/hamburguesasIt.git
-   cd hamburguesasIt
+   cd hamburguesasit
 ```
 
 2. **Crea y activa el entorno virtual:**
@@ -112,6 +112,6 @@ El programa utiliza SQLite para almacenar los datos de ventas y los registros de
 - **evento:** Tipo de evento (IN o OUT).
 - **caja:** Total facturado.
 
-**EDUCACIONIT**
+
 
 
