@@ -23,7 +23,7 @@ Este es un sistema de pedidos desarrollado en Python con interfaz gráfica utili
 
 1. Clonar el repositorio o descargar el código fuente.
 2. Asegurarse de tener los requisitos previamente mencionados instalados.
-3. Ejecutar el script principal `delivery.py` para iniciar la aplicación.
+3. Ejecutar el script principal `hamburgesasit.py` para iniciar la aplicación.
 
 ## Uso
 
@@ -35,7 +35,7 @@ Este es un sistema de pedidos desarrollado en Python con interfaz gráfica utili
 
 1. **Clona el repositorio:**
 ```bash
-   git clone https://github.com/your-username/hamburguesasIt.git
+   git clone https://github.com/matiassenia/hamburguesasIt.git
    cd hamburguesasIt
 ```
 
