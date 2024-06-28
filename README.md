@@ -113,7 +113,7 @@ El programa utiliza SQLite para almacenar los datos de ventas y los registros de
 - **caja:** Total facturado.
 
 
-####################
+### 
 
 # IT Burger Ordering System
 
@@ -152,7 +152,7 @@ This is a burger ordering system developed in Python with a graphical interface 
 git clone https://github.com/matiassenia/hamburguesasIt.git
 cd hamburguesasit
 ```
-##Create and activate the virtual environment:
+## Create and activate the virtual environment:
 ```bash
 python -m venv venv
 # On Windows
@@ -160,17 +160,17 @@ venv\Scripts\activate
 # On Unix or MacOS
 source venv/bin/activate
 ```
-##Install the necessary dependencies:
+## Install the necessary dependencies:
 ```bash
 pip install requests
 ```
-##Run the program:
+## Run the program:
 ```bash
 python hamburguesasit.py
 ```
 
-##Graphical Interface
-#The graphical interface allows you to perform the following actions:
+## Graphical Interface
+# The graphical interface allows you to perform the following actions:
 
 1.Enter the staff member's name and the quantity of each type of combo (simple, double, triple) and Flurby.
 2.Enter the customer's name.
@@ -178,23 +178,23 @@ python hamburguesasit.py
 4.Cancel Order: Allows canceling the current order.
 5.Safe Exit: Saves shift data and safely closes the program.
 
-##Features
-#Order Entry:
+## Features
+# Order Entry:
 -Allows registering the customer's name and the quantity of each type of combo and Flurby.
 -Calculates the total order and displays the result in a pop-up window.
 -Saves the order details in the SQLite database.
 
-#Shift Change:
+# Shift Change:
 -Registers the exit of the current staff member and the total billed during their shift.
 -Saves the shift start and end data in the database.
 
-#System Shutdown:
+# System Shutdown:
 Saves the current shift data and closes the program.
 
-##Database
+## Database
 The program uses SQLite to store sales data and shift records. If the necessary tables do not exist, the program creates them automatically.
 
-#'sales' Table:
+# 'sales' Table:
 -id: Unique identifier.
 -customer: Customer's name.
 -date: Order date.
@@ -204,7 +204,7 @@ The program uses SQLite to store sales data and shift records. If the necessary 
 -Flurby: Quantity of Flurbys.
 -total: Total order amount.
 
-#'record' Table:
+# 'record' Table:
 -id: Unique identifier.
 -staff: Staff member's name.
 -date: Event date.
